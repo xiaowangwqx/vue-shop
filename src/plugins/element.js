@@ -27,7 +27,8 @@ import {
     Tag,
     Tree,
     Select,
-    Option
+    Option,
+    Cascader
 } from 'element-ui'
 
 
@@ -57,6 +58,7 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 
 // 将弹框组件挂载到Vue的原型对象上
 Vue.prototype.$message = Message
